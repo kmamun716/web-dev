@@ -1,0 +1,117 @@
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: lobstar;
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+body{
+    font-family: poppins;
+}
+section{
+    margin-bottom: 30px;
+}
+.flex-display{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.top-banner{
+    display: flex;
+    margin-left: 5%;
+}
+.heading {
+    border-left: 5px solid tomato;
+}
+.heading h1{
+    padding-left: 5px;
+    font-family: nunito;
+}
+.half-width{
+    width: 50%;
+}
+.top-banner img{
+    width: 45%;
+}
+.orange{
+    color: orange;
+}
+.button-style{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.my-mission-division{
+    display: flex;
+}
+.one-third{
+    width: 30%;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.one-third img {
+    width: 40%;
+}
+.mission{
+    background-color: #d7ebfa;
+}
+.vission{
+    background-color: rgb(237, 215, 240);
+}
+.goals{
+    background-color: beige;
+}
+.nut-color{
+    color: rgb(204, 156, 94);
+}
+.article{
+    padding: 0px 10px;
+}
+.article .develop{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 2% 50%;
+}
+.article img {
+    width: 50%;
+    margin-left: 110px;
+}
+.article .community{
+    margin-left: 20px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: bottom -64px right 153px;
+}
+.application{
+    margin-left: 30px;
+}
+.application-main>img {
+    width: 30%;
+    margin-right: 50px;
+}
+footer{
+    background-color: #000000;
+    padding: 20px 0px;
+}
+footer h1{
+    color:white;
+    font-family: lobstar;
+}
+footer h1 span{
+    color: rgb(236 19 19);
+}
+footer p{
+    color: gray;
+}
